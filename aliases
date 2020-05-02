@@ -1,0 +1,18 @@
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ll="ls -lh"
+alias la="ls -ha"
+alias lla="ls -lha"
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias g="git add -A"
+alias gg="git add -A && git commit"
+alias ggg="git add -A && git commit && git push"
+alias ipy="ipython"
+alias py="python"
+alias tree="tree -C"
+alias ssh="TERM=xterm-256color ssh"
+
