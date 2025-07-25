@@ -65,7 +65,7 @@ linkall() {
 
 clone() {
   if ! [[ -d $DOTFILES ]]; then
-    git clone git@github.com:shyn/dotfiles $DOTFILES
+    git clone https://github.com/shyn/dotfiles $DOTFILES
   else
     cd $DOTFILES
     git pull
@@ -84,4 +84,4 @@ vim_vundle() {
 
 clone
 linkall
-vim_vundle
+#vim_vundle
